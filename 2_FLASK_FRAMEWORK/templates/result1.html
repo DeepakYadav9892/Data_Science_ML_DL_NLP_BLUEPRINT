@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jinja Rule</title>
+</head>
+<body>
+
+<h2>Final Results</h2>
+
+<table border="2">
+    <tr>
+        <th>Key</th>
+        <th>Value</th>
+    </tr>
+
+    {% for key, value in results.items() %}
+    <tr>
+        {# this is the comment section #}
+        <td>{{ key }}</td>
+        <td>{{ value }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>
