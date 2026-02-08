@@ -12,3 +12,11 @@ __pycache__/
 
 .DS_Store
 Thumbs.db
+pyvenv.cfg
+share
+Lib
+etc
+Include
+Scripts
+pip
+pip init 

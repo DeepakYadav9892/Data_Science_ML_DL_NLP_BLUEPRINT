@@ -8,4 +8,7 @@ bs4
 flask
 memory_profiler 
 streamlit 
+scikit-learn
+imblearn
+kagglehub
 
